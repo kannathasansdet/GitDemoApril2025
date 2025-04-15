@@ -14,6 +14,8 @@ public class PrivateExample {
 	public static void main(String[] args) {
 		PrivateExample obj = new PrivateExample();
 		System.out.println(obj.data); // Accessible
+		
+		System.out.println("Hi Kanna");
 		obj.display(); // Accessible
 	}
 }
